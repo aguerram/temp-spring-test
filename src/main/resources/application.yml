@@ -1,0 +1,16 @@
+server:
+  port: 9000
+aws:
+  secretsmanager:
+    name: live
+    prefix: /dev/coreapi
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAYCHATCQUOJLWBNMD
+      secret-key: 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
+    stack:
+      auto: false
+    region:
+      auto: false
+      static: us-east-1
